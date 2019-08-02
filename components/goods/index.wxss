@@ -1,0 +1,10 @@
+.con{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 10px;
+	justify-content: space-between;
+}
+.item{
+	width: 48%;
+}

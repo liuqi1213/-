@@ -1,0 +1,9 @@
+<!--components/detailRecommend/index.wxml-->
+<view class='recommend'>
+	<!-- <text>{{DetailRecommends}}</text> -->
+  <view class='header'>商品推荐</view>
+  <view class='content'>
+	  
+    <w-goods goods="{{DetailRecommends}}"/>
+  </view>
+</view>

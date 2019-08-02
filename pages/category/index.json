@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+	  "v-menu":"childCpns/menu/index",
+	  "v-content":"childCpns/content/index"
+
+  }
+}

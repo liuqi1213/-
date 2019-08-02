@@ -1,0 +1,4 @@
+/* components/feature/index.wxss */
+.con image{
+	width: 100%;
+}

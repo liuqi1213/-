@@ -1,0 +1,9 @@
+<!--pages/cart/index.wxml-->
+<block wx:for="{{cartList}}" wx:key="{{index}}">
+<v-cart-list-item goods="{{item}}" index="{{index}}"></v-cart-list-item>
+</block>
+<v-bottom  selected="{{isSelectAll}}" 
+              price="{{totalPrice}}"
+              counter="{{totalCounter}}"
+              bindtap="onSelectAll"></v-bottom>
+

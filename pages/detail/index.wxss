@@ -1,0 +1,15 @@
+/* pages/detail/index.wxss */
+.detail-swiper swiper{
+	height: 800rpx;
+}
+.detail-swiper swiper image{
+	height: 100%;
+}
+v-bottom{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	background-color: #fff;
+}

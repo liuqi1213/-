@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+	  	  "v-icon":"/components/checkicon/index"
+	  
+  }
+}

@@ -1,0 +1,12 @@
+<!--pages/category/childCpns/content/index.wxml-->
+<scroll-view class='content' scroll-y>	
+<view class="con">
+	<block wx:for="{{subcategories}}" wx:key="{{index}}">
+		<view class="con-item">
+		<image src="{{item.image}}" mode='widthFix'></image>
+		<text>{{item.title}}</text>
+		</view>
+	</block>
+</view>
+
+</scroll-view>

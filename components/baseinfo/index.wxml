@@ -1,0 +1,29 @@
+<!--components/baseinfo/index.wxml-->
+<view class="con">
+	<view class="tit">
+		<text>{{baseinfo.title}}</text>
+	</view>
+	<view class="price-info">
+		<text class="newprice">{{baseinfo.newPrice}}</text>
+		<text class="oldprice">{{baseinfo.oldPrice}}</text>
+		<text class="discount">{{baseinfo.discount}}</text>
+	</view>
+	<view class="sell">
+		<block wx:for="{{baseinfo.columns}}" wx:key="index">
+		<view>{{item}}</view>
+		</block>
+	</view>
+	<view class="service">
+		<block wx:for="{{baseinfo.services}}" wx:key="index">
+			<!-- 第一个数据不显示 -->
+		<block wx:if="{{index!==0}}">
+		<view>
+			<image src="{{item.icon}}" class="icon"></image>
+			<text class="name">{{item.name}}</text>
+		</view>
+			</block>
+		</block>
+
+	</view>
+</view>
+

@@ -1,0 +1,62 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.7",
+	"appid": "wxc351fdee502334f7",
+	"projectname": "miniprogram-test-3",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "kkkk",
+					"pathName": "pages/detail/index",
+					"query": "iid=1m70y5k",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "oooo",
+					"pathName": "pages/cart/index",
+					"query": "{iid: \"1m7s9c4\", imageURL: \"//s3.mogucdn.com/mlcdn/c45406/180828_550k23i82cbibh32602fl43jc9aid_800x1200.jpg\", title: \"秋装女2018新款早秋女装裙子韩版针织连衣裙+衬衫上衣时尚套装\", desc: \"新款\", price: \"88.90\"}",
+					"scene": null
+				}
+			]
+		}
+	}
+}

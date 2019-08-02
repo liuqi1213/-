@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+	  "v-bottom":"childCpns/bottom-bar/index",
+	  "v-cart-list-item":"childCpns/cart-list-item/index"
+  }
+}

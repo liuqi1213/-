@@ -1,0 +1,77 @@
+/* components/shopinfo/index.wxss */
+.con{
+	padding: 16rpx 16rpx 50rpx ;
+	border-bottom: 12rpx solid #f2f2f2;
+	
+}
+ view text{
+	font-size: 26rpx;
+	color: #ff5777;
+}
+.logo-con{
+	height: 200rpx;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 48rpx;
+    border: 1px solid rgba(200,200,200,.6); 
+	vertical-align:middle;
+}
+.name{
+	margin-left: 18rpx;
+	position: relative;
+	top: 6rpx;
+}
+.desc-con{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.sell-baby{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 10rpx;
+	border-right: 1px solid rgba(200,200,200,.6);
+}
+.sell {
+	display: flex;
+	flex-direction: column;
+	 align-items: center; 
+}
+
+.baby{
+	display: flex;
+	flex-direction: column;
+	 align-items: center; 	
+}
+.mb{margin-bottom: 20rpx;}
+
+.score{
+	width: 50%;
+	margin-left: 60rpx;
+}
+.score text{
+	padding: 10rpx 10rpx;
+	display: inline-block;
+	min-width: 65rpx;
+	text-align: center;
+}
+.less{
+	color: #5ea732;
+}
+
+.entrance{
+	text-align: center;
+	margin: 50rpx auto;
+}
+.entrance button{
+	 padding: 8rpx 100rpx;
+}
+.entrance button::after{
+	border: none;
+}

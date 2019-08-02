@@ -1,0 +1,17 @@
+<!--components/paramsInfo/index.wxml-->
+<view>
+	<view class="table">
+	<block wx:for="{{paramsInfo.size[0]}}" wx:key="{{index}}">
+		<block wx:for="{{item}}" wx:key="{{index}}">
+			<view>{{item}}</view>
+		</block>
+	</block>
+	</view>
+	<view class="table-two">
+		<block wx:for="{{paramsInfo.infos}}" wx:key="{{index}}">
+			<view class="key">{{item.key}}</view>
+			<view class="value">{{item.value}}</view>
+			
+		</block>
+	</view>
+</view>

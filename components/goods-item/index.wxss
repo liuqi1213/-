@@ -1,0 +1,31 @@
+/* components/goods/index.wxss */
+.con{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* background: red; */
+	margin-bottom: 10px;
+}
+.con image{
+	border-radius: 10px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.tit{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 28rpx;
+}
+.desc{
+	display: flex;
+	justify-content: space-between;
+	 font-size: 26rpx;
+	  color: #ff5777;
+}
+.price{
+	
+}
+.num{
+	
+}

@@ -1,0 +1,11 @@
+/* pages/category/index.wxss */
+.con{
+	display: flex;
+	height: 100%;
+}
+.con v-menu{
+	width: 30%;
+}
+.con v-content{
+	width: 70%;
+}

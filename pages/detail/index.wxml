@@ -1,0 +1,11 @@
+<!--pages/detail/index.wxml-->
+<view>
+<v-swiper imgUrl="{{imgUrls}}" class="detail-swiper"></v-swiper>
+<v-baseinfo baseinfo="{{baseinfo}}"></v-baseinfo>
+<v-shopinfo shopInfo="{{shopInfo}}"></v-shopinfo>
+<v-detailinfo detailinfo="{{detailinfo}}"></v-detailinfo>
+<v-paramsInfo paramsInfo="{{paramsInfo}}"></v-paramsInfo>
+<v-comment commentInfo="{{commentInfo}}"></v-comment>
+<v-detailRecommend DetailRecommends="{{DetailRecommends}}"></v-detailRecommend>
+<v-bottom bind:addcart="AddCart"></v-bottom>
+</view>

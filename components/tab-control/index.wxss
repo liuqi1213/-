@@ -1,0 +1,14 @@
+/* components/tab-control/index.wxss */
+.con{
+	display: flex;
+	margin-bottom: 16rpx;
+	justify-content: space-around;
+}
+.con text{
+	font-size: 32rpx;
+	line-height: 80rpx;
+}
+.active{
+	 color: #ff5777;
+	  border-bottom: 6rpx solid #ff5777;
+}

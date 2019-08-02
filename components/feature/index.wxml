@@ -1,0 +1,4 @@
+<!--components/feature/index.wxml-->
+<view class="con">
+<image src="../../assets/images/home/recommend_bg.jpg"></image>
+</view>

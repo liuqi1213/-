@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+	  "v-swiper":"../../components/swiper/index",
+	  "v-recommend":"../../components/recommend/index",
+	  "v-feature":"../../components/feature/index",
+	  "v-tab-control":"../../components/tab-control/index",
+	  "v-goods":"../../components/goods/index",
+	  "v-backtop":"../../components/backtop/index"
+	  
+  }
+}

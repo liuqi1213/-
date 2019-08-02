@@ -1,0 +1,12 @@
+<!--pages/home/index.wxml-->
+<view class="home">
+	<scroll-view scroll-y scroll-with-animation="true"  bindscroll="scrollfn" class="content"  scroll-top="{{topPosition}}" bindscrolltolower="loadmore">
+	<v-tab-control title="{{title}}" bind:tabClick="TabClick" class="flex tab-control-temp" wx:if="{{showTabControl}}"></v-tab-control>
+	<v-swiper imgUrl="{{banner}}"></v-swiper>
+	<v-recommend recommend="{{recommend}}"></v-recommend>
+	<v-feature></v-feature>
+	<v-tab-control title="{{title}}" bind:tabClick="TabClick" class="tab-control"></v-tab-control>
+	<v-goods goods="{{goods}}"></v-goods>
+	<v-backtop bindtap="onBackTop" wx:if="{{showBackTop}}"></v-backtop>
+	</scroll-view>
+</view>

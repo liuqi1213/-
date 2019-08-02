@@ -1,0 +1,16 @@
+<!--components/detailinfo/index.wxml-->
+<view>
+	<view class="header">
+	<view class="start line"></view>
+	<view>{{detailinfo.desc}}</view>
+	<view class="end line"></view>
+	</view>
+	<view class="content">
+		<block wx:for="{{detailinfo.detailImage}}" wx:key="{{index}}">
+			<text class="tit">{{item.key}}</text>
+			<block wx:for="{{item.list}}" wx:key="{{index}}">
+			<image src="{{item}}" mode="widthFix" class="con-img"></image>
+			</block>
+		</block>
+	</view>
+</view>

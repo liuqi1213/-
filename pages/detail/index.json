@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+	 "v-swiper":"../../components/swiper/index",
+	 "v-baseinfo":"../../components/baseinfo/index",
+	 "v-shopinfo":"../../components/shopinfo/index",
+	 "v-detailinfo":"../../components/detailinfo/index",
+	 "v-paramsInfo":"../../components/paramsInfo/index",
+	  "v-comment":"../../components/comment/index",
+	  "v-detailRecommend":"../../components/detailRecommend/index",
+	  "v-bottom":"childCpns/bottom-bar/index"
+	 
+  }
+}

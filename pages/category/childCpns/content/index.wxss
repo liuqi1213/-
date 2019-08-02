@@ -1,0 +1,27 @@
+/* pages/category/childCpns/content/index.wxss */
+.content{
+	height: 100%;
+}
+.con{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20rpx;
+	margin-top: 30rpx;
+	align-items: center;
+}
+.con-item{
+	width: 33.333%;
+	text-align: center;
+}
+.con-item image{
+	width: 80%;
+	justify-content: center;
+	
+}
+.con-item text{
+	display: flex;
+	  font-size: 28rpx;
+  margin: 30rpx 0;
+	justify-content: center;
+	
+}

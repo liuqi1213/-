@@ -1,0 +1,21 @@
+<!--pages/my/childCpns/m-info/index.wxml-->
+<view class="info">
+	<view class="info-item">
+		<view>
+			<text class="count">0.00</text>元
+		</view>
+		<view>我的余额</view>
+	</view>
+	<view class="info-item">
+		<view>
+			<text class="count">0</text>个
+		</view>
+		<view>我的优惠</view>
+	</view>
+	<view class="info-item">
+		<view>
+			<text class="count">0</text>分
+		</view>
+		<view>我的积分</view>
+	</view>
+</view>

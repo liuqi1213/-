@@ -1,0 +1,34 @@
+/* components/paramsInfo/index.wxss */
+.table{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.table view{
+	width: 25%;
+	line-height: 84rpx;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f2;
+} 
+
+.table-two{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.table-two .key{
+	width: 25%;
+	line-height: 84rpx;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f2;
+}
+.table-two .value{
+	width: 75%;
+	line-height: 84rpx;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f2;
+	overflow: hidden;
+	/* 0 */
+	/* text-overflow: ellipsis; */
+}

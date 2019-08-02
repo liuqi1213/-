@@ -1,0 +1,39 @@
+<!--pages/cart/childCpns/cart-list-item/index.wxml-->
+<!-- <view class="con">
+	<view class="icon">
+		<v-icon isChecked="{{selected}}" />
+	</view>
+	<view class="img">
+		<image src="{{goods.imageURL}}"  mode='aspectFill'></image>
+	</view>
+	<view class="detail">
+		<view class="tit">{{goods.title}}</view>
+		<view class="desc">{{goods.desc}}</view>
+		<view class="price-count">
+			<view class="price">{{goods.price}}</view>
+			<view class="count">{{goods.count}}</view>
+		</view>
+	</view>
+</view>
+ -->
+ 
+ 
+ <!--pages/cart/childCpns/cart-list-item/cart-list-item.wxml-->
+<view class='cart-list-item'>
+  <view class='item-icon'>
+	  		<v-icon bindtap='onCheckClick' data-index="{{index}}" isChecked="{{goods.checked}}" />
+	  
+    <!-- <w-check-icon bindtap='onCheckClick' data-index="{{index}}" isChecked="{{goods.checked}}"/> -->
+  </view>
+  <view class='item-img'>
+    <image src="{{goods.imageURL}}" mode='aspectFill'/>
+  </view>
+  <view class='item-info'>
+    <view class='title'>{{goods.title}}</view>
+    <view class='desc'>{{goods.desc}}</view>
+    <view class='price-count'>
+      <view class='price'>¥{{goods.price}}</view>
+      <view class='count'>x{{goods.count}}</view>
+    </view>
+  </view>
+</view>
